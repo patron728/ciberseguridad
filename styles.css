@@ -1,0 +1,129 @@
+/* Reset simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+header nav {
+  float: right;
+  margin-right: 10px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Temas */
+.temas {
+  background-color: #fff;
+  padding: 30px 0;
+}
+.temas h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.temas .tema {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.temas .tema img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+.temas .tema h3 {
+  margin: 15px 0 10px;
+}
+.temas .tema p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Contacto */
+.contacto {
+  background-color: #fff;
+  padding: 30px 0;
+}
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contacto form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contacto form label {
+  margin-bottom: 5px;
+}
+.contacto form input,
+.contacto form textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contacto form button {
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contacto form button:hover {
+  background-color: #444;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
